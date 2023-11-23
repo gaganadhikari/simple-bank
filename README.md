@@ -1,2 +1,2 @@
 # simple-bank
-- making a simple bank application using sqlc
+- A simple bank application in GO using sqlc
