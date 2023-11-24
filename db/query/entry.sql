@@ -19,7 +19,8 @@ OFFSET $2;
 
 -- name: UpdateEntry :one
 UPDATE entries
-SET amount = $1
+SET amount = $2
+WHERE id = $1
 RETURNING *;
 
 -- name: DeleteEntry :exec
