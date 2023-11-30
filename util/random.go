@@ -39,3 +39,7 @@ func RandomCurrency() string {
 	n := len(currencies)
 	return currencies[rand.Intn(n)]
 }
+func RandomEmail() string {
+	email := RandomString(7) + "@mail.com"
+	return email
+}
